@@ -1,0 +1,125 @@
+{
+    "pregunta": "¿Tiene fiebre?",
+    "si": {
+        "pregunta": "¿Tiene tos seca?",
+        "si": {
+            "pregunta": "¿Tiene dificultad para respirar?",
+            "si": {
+                "pregunta": "Covid-19",
+                "si": null,
+                "no": null
+            },
+            "no": {
+                "pregunta": "¿Tiene dolor muscular?",
+                "si": {
+                    "pregunta": "Influenza",
+                    "si": null,
+                    "no": null
+                },
+                "no": {
+                    "pregunta": "Gripe leve",
+                    "si": null,
+                    "no": null
+                }
+            }
+        },
+        "no": {
+            "pregunta": "¿Tiene dolor de garganta?",
+            "si": {
+                "pregunta": "¿Tiene ganglios inflamados?",
+                "si": {
+                    "pregunta": "Faringitis",
+                    "si": null,
+                    "no": null
+                },
+                "no": {
+                    "pregunta": "Resfriado común",
+                    "si": null,
+                    "no": null
+                }
+            },
+            "no": {
+                "pregunta": "¿Tiene sarpullido?",
+                "si": {
+                    "pregunta": "Sarampión",
+                    "si": null,
+                    "no": null
+                },
+                "no": {
+                    "pregunta": "Fiebre sin causa conocida",
+                    "si": null,
+                    "no": null
+                }
+            }
+        }
+    },
+    "no": {
+        "pregunta": "¿Tiene estornudos?",
+        "si": {
+            "pregunta": "¿Tiene ojos llorosos?",
+            "si": {
+                "pregunta": "¿Es temporada de polen?",
+                "si": {
+                    "pregunta": "Alergia estacional",
+                    "si": null,
+                    "no": null
+                },
+                "no": {
+                    "pregunta": "Irritación ocular",
+                    "si": null,
+                    "no": null
+                }
+            },
+            "no": {
+                "pregunta": "¿Tiene mucosidad clara?",
+                "si": {
+                    "pregunta": "Rinitis alérgica",
+                    "si": null,
+                    "no": null
+                },
+                "no": {
+                    "pregunta": "Resfriado leve",
+                    "si": null,
+                    "no": null
+                }
+            }
+        },
+        "no": {
+            "pregunta": "¿Siente fatiga constante?",
+            "si": {
+                "pregunta": "¿Tiene dificultad para concentrarse?",
+                "si": {
+                    "pregunta": "Fatiga crónica",
+                    "si": null,
+                    "no": null
+                },
+                "no": {
+                    "pregunta": "Falta de sueño",
+                    "si": null,
+                    "no": null
+                }
+            },
+            "no": {
+                "pregunta": "¿Tiene dolor abdominal?",
+                "si": {
+                    "pregunta": "¿Ha tenido diarrea?",
+                    "si": {
+                        "pregunta": "Gastroenteritis",
+                        "si": null,
+                        "no": null
+                    },
+                    "no": {
+                        "pregunta": "Indigestión",
+                        "si": null,
+                        "no": null
+                    }
+                },
+                "no": {
+                    "pregunta": "Sin diagnóstico claro",
+                    "si": null,
+                    "no": null
+                }
+            }
+        }
+    }
+}
